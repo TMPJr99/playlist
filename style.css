@@ -1,0 +1,93 @@
+header{
+  height: 7vh;
+  background-color: grey;
+  margin: 0;
+  position: fixed;
+  width: 100%
+}
+body{
+  margin: 0;
+  width: 100%;
+}
+
+.left-side{
+  padding: 35vh;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.text{
+  font-family: Avenir;
+  font-size: 20pts;
+  color: purple;
+  letter-spacing: 4px;
+}
+
+.btn{
+  background-color: grey;
+  height: 50px;
+  width: 200px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  color: white;
+}
+.right-side{
+  position: fixed;
+  margin: 0;
+  height: 85vh;
+  margin-top: 51px;
+}
+
+.img{
+  height: 100%;
+  width: 100%;
+  margin-bottom: 0vh;
+  opacity: 0.19;
+  z-index: 0;
+  position: absolute;
+}
+
+.images-container{
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 275px;
+  margin-top: 10px;
+}
+
+.img0{
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin: 2px;
+}
+
+.img1{
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin: 2px;
+}
+
+.img2{
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin: 2px;
+}
+
+footer{
+  height: 10vh;
+  background-color: grey;
+  margin: 0;
+  position: fixed;
+  width: 100%
+}
+
+.footer{
+  color: white;
+  margin-left: 15vh;
+  padding-top: 20px;
+}
